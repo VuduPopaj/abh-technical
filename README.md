@@ -1,10 +1,12 @@
 # abh-technical
 This test demonstrates how to use Selenium WebDriver with Java to automate the process of searching for a company ("Atlantbh") on the Navigator website and verifying its address.
-Test is pretty basic without any major code complexity.
+The test is basic without any major code complexity.
+I've decided to identify this as a Smoke test because Navigator is an application that relies on the crucial functionality of searching for streets and places.
+If the search doesn't work, the application is unusable.
 
 **Technologies used:**
-- Selenium WebDriver: A framework for automating web browsers.
-- Java: Programming language used to write the automation script.
+- Selenium: A framework for automating web browsers.
+- Java: A Programming language used to write the automation script.
 - ChromeDriver: WebDriver implementation for Google Chrome.
 - WebDriverWait: Used to wait for certain conditions before proceeding with further actions (such as waiting for an element to be clickable or visible).
 
@@ -14,7 +16,7 @@ Test is pretty basic without any major code complexity.
 - Maven (Optional, if using Maven for dependency management)
 - Install Maven if you're managing dependencies using Maven.
 - Chrome WebDriver
-- Download the correct version of the ChromeDriver, based on your Chrome browser version.
+- Download the correct ChromeDriver version based on your Chrome browser version.
 - Place the downloaded chromedriver.exe in a suitable location on your system.
 - Selenium WebDriver Library
 - Ensure that the selenium-java dependency is added to your project.
